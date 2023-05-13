@@ -1,0 +1,125 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h4 {
+  width: 50%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 30%;
+}
+.cust__add {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+  width: 100%;
+  border: 1px solid gray;
+}
+.cust__add p {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  font-style: italic;
+  height: 25px;
+  margin: 0;
+  font-size: 0.9em;
+}
+.cust__add button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: green;
+  outline: none;
+  font-size: 1.5em;
+}
+
+.selected__items {
+  display: flex;
+  margin: 50px;
+  width: 700px;
+  justify-content: flex-start;
+}
+.selected__items p {
+  display: flex;
+  margin: 0 2px;
+}
+.select__options {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  position: relative;
+  border: 1px solid gray;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 25px;
+  min-width: 100px;
+  border: none;
+  outline: none;
+}
+.clear__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  color: red;
+  border: none;
+  cursor: pointer;
+  right: 0;
+}
+
+.selected__input__value {
+  background: #dee9e9;
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 20px;
+  margin: 0px 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.selected__input__value p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0;
+  padding: 0px 5px;
+  height: 100%;
+}
+.selected__input__value button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d4d2d2;
+  border: none;
+  color: red;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
